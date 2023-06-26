@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    color: #fff;
+    background: linear-gradient(90deg, rgba(109, 29, 32, 1) 0%, rgba(42, 42, 179, 1) 50%, rgba(63, 53, 139, 1) 100%);
+}
+
+.nav {
+    background: linear-gradient(90deg, rgba(109, 29, 32, 1) 0%, rgba(42, 42, 179, 1) 50%, rgba(63, 53, 139, 1) 100%) !important;
+
+}
+
+.btnDaNav {
+    background: #fff !important;
+    color: #000 !important;
+    border-radius: 12px !important;
+    margin-left: 25px !important;
+}
+
+
+.btnDaNav:hover {
+    background: rgb(168, 0, 6) !important;
+}

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h6,
+label {
+    color: #fff;
+}
+
+body {
+    background: url('../imgs/fundo-carteirinha.png') no-repeat top center fixed !important;
+    background-size: cover !important;
+}
+
+.tudo {
+    background: #00000061;
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(15px);
+}
+
+
+.navbar {
+    background: linear-gradient(90deg, rgba(109, 29, 32, 1) 0%, rgba(42, 42, 179, 1) 50%, rgba(63, 53, 139, 1) 100%);
+}
+
+
+.navGeral {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inputUpload {
+    /* border: 1px solid #dee2e6;
+    padding: 12px;
+    border-radius: 8px; */
+}
+
+.btnEnviar {
+    width: 35% !important;
+    background: linear-gradient(90deg, rgba(109, 29, 32, 1) 0%, rgba(63, 53, 139, 1) 100%);
+    border: 0px !important;
+
+}
+
+.navbar-toggler {
+    border: 0px !important;
+
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+#resposta-upload {
+    color: #cc3333;
+    border-radius: 6px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.offcanvas-body {
+    background: #161f29;
+}
+
+.offcanvas-header {
+    background: #161f29;
+}
